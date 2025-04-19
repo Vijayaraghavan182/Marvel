@@ -1,0 +1,130 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary_color: black;
+    --secondary_color: rgb(240, 20, 30);
+    --white_color: rgb(255, 255, 255);
+}
+.logo{
+    width: 40%;
+}
+.option
+{
+    width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav{
+    display: flex;
+    background-color: var(--primary_color);
+    
+}
+
+.logsign
+{
+    width: 10%;
+    display: flex;
+    margin: auto; 
+    justify-content: center;
+}
+.logsign img{
+    
+    width: 40px;
+    height: 40px;
+    opacity: 0.8;
+}
+.logsign a{
+    text-decoration: none;
+    color: var(--white_color);
+    align-items: center;
+    font-size: large;
+    opacity: 0.8;
+}
+.logsign a:hover
+{
+    border-bottom: 3px solid var(--secondary_color);
+    opacity: 1;
+    
+}
+.option a{
+    text-decoration: none;
+    color: var(--white_color);
+    font-size: large;
+    padding: 5px 10px 5px 10px;
+    opacity: 0.8;
+}
+.marvellogo
+{
+    height:70px;
+    width: 140px;
+    background-color: var(--primary_color);
+    margin-left: 40px;
+}
+.cover1img{
+    width: 60%;
+    align-content: center;
+    text-align: center;
+
+    
+}
+.cover1
+{
+    width: 100%;
+    height: 89.4vh;
+    background-color: var(--primary_color);
+    display: flex;
+    
+}
+.form
+{
+    
+    color: var(--white_color);
+    width: 30%;
+    height: 500px;
+    padding: 20px; 
+    margin: auto;
+    border: 2px solid var(--white_color);
+    
+    
+}
+textarea
+{
+    resize: none;
+}
+input{
+    margin-top: 3px;
+    width: 100%;
+    height: 30px;
+    
+}
+
+.form button
+{
+    width: 50%;
+    height: 40px;
+    font-size: large;
+    border: none;
+    border-radius: 30px;
+    background-color: var(--secondary_color);
+   
+}
+.option a:hover
+{
+    /* background-color: var(--secondary_color);
+    color: var(--primary_color);
+    
+    /* transition: all 200ms; */
+    /* border: 2px solid var(--white_color); */
+    /* border-radius: 10px; */
+    border-bottom: 3px solid var(--secondary_color);
+    opacity: 1;
+}
+.cover1img img
+{
+    box-shadow: 1px 1px 10px rgb(250, 250, 250);
+}

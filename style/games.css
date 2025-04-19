@@ -1,0 +1,127 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary_color: black;
+    --secondary_color: rgb(240, 20, 30);
+    --white_color: rgb(255, 255, 255);
+}
+.logo{
+    width: 40%;
+}
+.option
+{
+    width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav{
+    display: flex;
+    background-color: var(--primary_color);
+    position: sticky;
+    top: 0;
+    z-index: 21;
+}
+
+a
+{
+    text-decoration: none;
+}
+.option a{
+    
+    color: var(--white_color);
+    font-size: large;
+    padding: 5px 10px 5px 10px;
+    opacity: 0.8;
+}
+
+.logsign
+{
+    width: 10%;
+    display: flex;
+    margin: auto; 
+    justify-content: center;
+}
+.logsign img{
+    
+    width: 40px;
+    height: 40px;
+    opacity: 0.8;
+}
+.logsign a{
+    text-decoration: none;
+    color: var(--white_color);
+    align-items: center;
+    font-size: large;
+    opacity: 0.8;
+}
+.logsign a:hover
+{
+    border-bottom: 3px solid var(--secondary_color);
+    opacity: 1;
+    
+}
+
+.marvellogo
+{
+    height:70px;
+    width: 140px;
+    background-color: var(--primary_color);
+    margin-left: 40px;
+}
+.option a:hover
+{
+    /* background-color: var(--secondary_color);
+    color: var(--primary_color);
+    border-radius: 10px;
+    border: 2px solid var(--white_color);
+    transition: all 200ms; */
+    border-bottom: 3px solid var(--secondary_color);
+    opacity: 1;
+    cursor: pointer;
+
+}
+/*  */
+header
+{
+    height: 50px;
+    width: 100%;
+    background-color:var(--white_color);
+    
+}
+header img{
+    height:60px;
+    display: flex;
+    margin: auto;
+    padding: 10px;
+}
+/*  */
+.games
+{
+    position: relative;
+    width: 100%;
+}
+.rivals img{
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    
+}
+.content
+{
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    border: 2px solid var(--primary_color);
+    border-radius: 10px;
+    z-index: 2;
+}
+.content img
+{
+    width: 400px;
+    height: 100px;
+}

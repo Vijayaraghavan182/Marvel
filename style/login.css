@@ -1,0 +1,198 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary_color: black;
+    --secondary_color: rgb(240, 20, 30);
+    --white_color: rgb(255, 255, 255);
+}
+.logo{
+    width: 40%;
+}
+.option
+{
+    width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav{
+    display: flex;
+    background-color: var(--primary_color);
+    position: sticky;
+    top: 0;
+    z-index: 21;
+}
+
+a
+{
+    text-decoration: none;
+}
+.option a{
+    
+    color: var(--white_color);
+    font-size: large;
+    padding: 5px 10px 5px 10px;
+    opacity: 0.8;
+}
+
+.logsign
+{
+    width: 10%;
+    display: flex;
+    margin: auto; 
+    justify-content: center;
+}
+.logsign img{
+    
+    width: 40px;
+    height: 40px;
+    opacity: 0.8;
+}
+.logsign a{
+    text-decoration: none;
+    color: var(--white_color);
+    align-items: center;
+    font-size: large;
+    opacity: 0.8;
+}
+.logsign a:hover
+{
+    border-bottom: 3px solid var(--secondary_color);
+    opacity: 1;
+    
+}
+
+.marvellogo
+{
+    height:70px;
+    width: 140px;
+    background-color: var(--primary_color);
+    margin-left: 40px;
+}
+.option a:hover
+{
+    /* background-color: var(--secondary_color);
+    color: var(--primary_color);
+    border-radius: 10px;
+    border: 2px solid var(--white_color);
+    transition: all 200ms; */
+    border-bottom: 3px solid var(--secondary_color);
+    opacity: 1;
+    cursor: pointer;
+
+}
+.body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+  padding: 0 10px;
+}
+.body::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url("../img/log.jpg"), #000;
+  background-position: center;
+  background-size: cover;
+}
+.wrapper {
+  width: 400px;
+  border-radius: 8px;
+  padding: 30px;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #fff;
+}
+.input-field {
+  position: relative;
+  border-bottom: 2px solid #ccc;
+  margin: 15px 0;
+}
+.input-field label {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 16px;
+  pointer-events: none;
+  transition: 0.15s ease;
+}
+.input-field input {
+  width: 100%;
+  height: 40px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: #fff;
+}
+.input-field input:focus~label,
+.input-field input:valid~label {
+  font-size: 0.8rem;
+  top: 10px;
+  transform: translateY(-120%);
+}
+.forget {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 25px 0 35px 0;
+  color: #fff;
+}
+#remember {
+  accent-color: #fff;
+}
+.forget label {
+  display: flex;
+  align-items: center;
+}
+.forget label p {
+  margin-left: 8px;
+}
+.wrapper a {
+  color: #efefef;
+  text-decoration: none;
+}
+.wrapper a:hover {
+  text-decoration: underline;
+}
+button {
+  background:var(--secondary_color);
+  color: var(--white_color);
+  font-weight: 600;
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 16px;
+  border: 2px solid transparent;
+  transition: 0.3s ease;
+}
+button:hover {
+  color: #fff;
+  border-color: #fff;
+  background: rgba(255, 255, 255, 0.15);
+}
+.register {
+  text-align: center;
+  margin-top: 30px;
+  color: #fff;
+}

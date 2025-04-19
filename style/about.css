@@ -1,0 +1,139 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary_color: black;
+    --secondary_color: rgb(240, 20, 30);
+    --white_color: rgb(255, 255, 255);
+}
+.logo{
+    width: 40%;
+}
+.option
+{
+    width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav{
+    display: flex;
+    background-color: var(--primary_color);
+    
+}
+
+.option a{
+    text-decoration: none;
+    color: var(--white_color);
+    font-size: large;
+    padding: 5px 10px 5px 10px;
+    opacity: 0.8;
+
+    
+
+}
+
+.logsign
+{
+    width: 10%;
+    display: flex;
+    margin: auto; 
+    justify-content: center;
+}
+.logsign img{
+    
+    width: 40px;
+    height: 40px;
+    opacity: 0.8;
+}
+.logsign a{
+    text-decoration: none;
+    color: var(--white_color);
+    align-items: center;
+    font-size: large;
+    opacity: 0.8;
+}
+.logsign a:hover
+{
+    border-bottom: 3px solid var(--secondary_color);
+    opacity: 1;
+    
+}
+
+.marvellogo
+{
+    height:70px;
+    width: 140px;
+    background-color: var(--primary_color);
+    margin-left: 40px;
+}
+.option a:hover
+{
+    /* background-color: var(--secondary_color);
+    color: var(--primary_color);
+    border-radius: 10px;
+    border: 2px solid var(--white_color);
+    transition: all 200ms; */
+    border-bottom: 3px solid var(--secondary_color);
+    opacity: 1;
+
+}
+/*  */
+.aboutmarvel
+{
+    display: flex;
+    background-color: var(--primary_color);
+}
+.aboutmarvelimage
+{
+    width: 40%;
+    text-align: center;
+    
+}
+.aboutmarvelcontent
+{
+    padding: 10px;
+    width: 60%;
+    color: var(--white_color);
+    margin-right: 50px;
+    text-align: justify;
+    padding-top: 40px;
+}
+/*  */
+.stanlee{
+    display: flex;
+    background-color: var(--primary_color);
+}
+a{
+    text-decoration: none;
+    color: var(--white_color);
+}
+.standleeimg
+{
+    width: 40%;
+    text-align: center; 
+}
+.standleeimg img{
+    height: 400px;
+}
+.stanleecontent
+{
+    padding: 10px;
+    width: 60%;
+    color: var(--white_color);
+    margin-left: 50px;
+    text-align: justify;
+    padding-top: 40px;
+    
+}
+.stanleecontent h4
+{
+    padding-top: 10px;
+    font-size: 18px;
+}
+.aboutmarvelcontent h4{
+    font-size: 17px;
+}

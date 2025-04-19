@@ -1,0 +1,174 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary_color: black;
+    --secondary_color: rgb(240, 20, 30);
+    --white_color: rgb(255, 255, 255);
+}
+.logo{
+    width: 40%;
+}
+.option
+{
+    width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav{
+    display: flex;
+    background-color: var(--primary_color);
+    position: sticky;
+    top: 0;
+    z-index: 21;
+}
+.option a{
+    text-decoration: none;
+    color: var(--white_color);
+    font-size: large;
+    padding: 5px 10px 5px 10px;
+    opacity: 0.8;
+    
+
+}
+
+.logsign
+{
+    width: 10%;
+    display: flex;
+    margin: auto; 
+    justify-content: center;
+}
+.logsign img{
+    
+    width: 40px;
+    height: 40px;
+    opacity: 0.8;
+}
+.logsign a{
+    text-decoration: none;
+    color: var(--white_color);
+    align-items: center;
+    font-size: large;
+    opacity: 0.8;
+}
+.logsign a:hover
+{
+    border-bottom: 3px solid var(--secondary_color);
+    opacity: 1;
+    
+}
+
+.marvellogo
+{
+    height:70px;
+    width: 140px;
+    background-color: var(--primary_color);
+    margin-left: 40px;
+}
+.option a:hover
+{
+    /* background-color: var(--secondary_color);
+    color: var(--primary_color);
+    border-radius: 10px;
+    border: 2px solid var(--white_color);
+    transition: all 200ms; */
+    border-bottom: 3px solid var(--secondary_color);
+    opacity: 1;
+
+}
+/*  */
+.main
+{
+    width: 90%;
+    margin: auto;
+}
+/*  */
+.series1
+{
+    display: flex;
+    border: 2px solid var(--primary_color);
+    border-radius: 20px;
+    padding: 30px;
+    
+    color: var(--white_color);
+    background-color: rgba(15, 15, 15, 0.204);
+    backdrop-filter: blur(5px);
+}
+
+.series1 p{
+    font-size: 18px;
+    margin-top: 5px;
+    text-align: justify;
+}
+.series1 img 
+{
+    width: 120px;
+    height: 150px;
+}
+/*  */
+.series
+{
+    display: flex;
+    border: 2px solid var(--primary_color);
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: 20px;
+    color: var(--white_color);
+    background-color: rgba(15, 15, 15, 0.204);
+    backdrop-filter: blur(5px);
+}
+
+.content
+{
+    padding: 15px;
+    width: 750%  ;
+}
+
+.series p{
+    font-size: 18px;
+    margin-top: 5px;
+    text-align: justify;
+}
+.series img 
+{
+    width: 120px;
+    height: 150px;
+}
+
+/* button */
+.buttonbox
+{
+    height: 219;
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+    padding: 10px;
+    
+}
+.watchbutton{
+    background-color: var(--secondary_color);
+    padding: 15px 20px 15px  20px;
+    border-radius: 20px;
+    font-size: larger;
+    font-weight: bold;
+    align-content: center;
+    
+}
+.watchbutton a
+{
+color: var(--white_color);
+text-decoration: none;
+}
+
+
+.backimg{
+    background-size: 100% ;
+    background-image: url('../img/ser.webp');
+    /* background-repeat: no-repeat; */
+
+}
